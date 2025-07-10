@@ -1,0 +1,26 @@
+{
+  "name": "realtime_tracker",
+  "version": "1.0.0",
+  "description": "A real-time device tracker built with Express and Socket.IO.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "real-time",
+    "tracker",
+    "socket.io",
+    "express"
+  ],
+  "author": "Tanveer",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.19.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
